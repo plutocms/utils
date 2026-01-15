@@ -1,4 +1,4 @@
-import { kebabCase } from 'change-case'
+import { kebabCase } from 'scule'
 
 export function fileNameToKebabCase(name: string) {
   const fileName = name.replace(/(.*)(\.\w+$)/, `$1`)
