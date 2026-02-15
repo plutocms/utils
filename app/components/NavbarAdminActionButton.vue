@@ -16,9 +16,9 @@ const props = defineProps<Props>()
       class="nav-link"
     >
       <span class="nav-content">
-        <Icon v-if="props.icon" :name="props.icon" />
+        <Icon v-if="props.icon" :name="props.icon" class="icon" />
 
-        <span> {{ props.label }} </span>
+        <span class="label"> {{ props.label }} </span>
       </span>
     </NuxtLink>
   </li>
@@ -56,5 +56,15 @@ const props = defineProps<Props>()
 
 .dark .nav-link:hover .nav-content {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.link-icon {
+  flex-shrink: 0;
+}
+
+.link-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
