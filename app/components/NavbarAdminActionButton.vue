@@ -16,9 +16,9 @@ const props = defineProps<Props>()
       class="nav-link"
     >
       <span class="nav-content">
-        <Icon v-if="props.icon" :name="props.icon" class="icon" />
+        <Icon v-if="props.icon" :name="props.icon" class="link-icon" />
 
-        <span class="label"> {{ props.label }} </span>
+        <span class="link-label"> {{ props.label }} </span>
       </span>
     </NuxtLink>
   </li>
