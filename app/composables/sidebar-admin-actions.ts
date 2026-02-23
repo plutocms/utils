@@ -3,14 +3,12 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 const actions = ref<NavigationMenuItem[]>([])
 
 export function useSidebarAdminActions() {
-  const addAction = (newActions: NavigationMenuItem[]) => {
-    // @ts-expect-error - We assume 'href' is the unique identifier for actions
-    const existingIds = new Set(actions.value.map((a) => a.href))
-    const filtered = newActions.filter(
-      (a) => a.href && !existingIds.has(a.href.toString())
-    )
+  const addAction = (action: NavigationMenuItem[]) => {
+    // @ts-expect-error - Type instantiation is excessively deep and possibly infinite.
+    const existingLabels = new Set(actions.value.map((a) => a.label))
+    const newActions = action.filter((a) => !existingLabels.has(a.label))
 
-    actions.value = [...actions.value, ...filtered]
+    actions.value = [...actions.value, ...newActions]
   }
 
   return {
