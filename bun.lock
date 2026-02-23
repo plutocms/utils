@@ -17,6 +17,7 @@
   },
   "trustedDependencies": [
     "esbuild",
+    "vue-demi",
     "unrs-resolver",
     "@parcel/watcher",
   ],
