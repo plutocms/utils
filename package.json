@@ -1,7 +1,18 @@
 {
-  "name": "utils",
+  "name": "@plutocms/utils",
   "type": "module",
-  "private": true,
+  "version": "0.0.1-alpha.2",
+  "description": "",
+  "author": "Victor Ribeiro",
+  "license": "MIT",
+  "homepage": "https://github.com/plutocms/utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plutocms/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plutocms/utils/issues"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
