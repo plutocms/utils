@@ -1,7 +1,7 @@
 {
   "name": "@plutocms/utils",
   "type": "module",
-  "version": "0.0.1-alpha.3",
+  "version": "0.0.1-alpha.4",
   "description": "",
   "author": "Victor Ribeiro",
   "license": "MIT",
@@ -13,6 +13,7 @@
   "bugs": {
     "url": "https://github.com/plutocms/utils/issues"
   },
+  "main": "./nuxt.config.ts",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
