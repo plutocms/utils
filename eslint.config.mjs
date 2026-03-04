@@ -4,6 +4,7 @@ import withNuxt from './.nuxt/eslint.config.mjs'
 
 // See: https://eslint.vuejs.org/rules
 export default withNuxt(
+  // @ts-ignore
   antfu({
     rules: {
       'node/prefer-global/process': ['off', 'never'],
