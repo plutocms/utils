@@ -39,7 +39,14 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Publish to npm
-        run: npm publish --provenance --access public
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if [[ "$VERSION" == *-* ]]; then
+            TAG=$(echo "$VERSION" | sed -E 's/^[0-9]+\.[0-9]+\.[0-9]+-([a-zA-Z]+).*/\1/')
+          else
+            TAG=latest
+          fi
+          npm publish --provenance --access public --tag "$TAG"
 
       # Only tag and create the GitHub release after a successful publish
       - name: Create git tag and GitHub release
