@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/plutocms/utils/compare/v0.1.0...v0.1.1) (2026-09-03)
+
+
+### Bug Fixes
+
+* release the ref-&gt;shallowRef useSidebarAdminActions fix ([cac2b50](https://github.com/plutocms/utils/commit/cac2b509e95abae386c48a121e8fc434d328634d))
+
 ## [0.1.0](https://github.com/plutocms/utils/compare/v0.0.1-alpha.7...v0.1.0) (2026-07-08)
 
 
