@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/plutocms/utils/compare/v0.1.1...v0.2.0) (2026-09-09)
+
+
+### Features
+
+* adapt admin actions for mobile ([#16](https://github.com/plutocms/utils/issues/16)) ([9b2f22f](https://github.com/plutocms/utils/commit/9b2f22fcbc120cdccd29ef72cd8e66ea54902a7d))
+
 ## [0.1.1](https://github.com/plutocms/utils/compare/v0.1.0...v0.1.1) (2026-09-03)
 
 
