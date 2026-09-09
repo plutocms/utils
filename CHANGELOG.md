@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/plutocms/utils/compare/v0.2.0...v0.2.1) (2026-09-09)
+
+
+### Bug Fixes
+
+* **navbar:** add shared admin registry ([#18](https://github.com/plutocms/utils/issues/18)) ([81ec228](https://github.com/plutocms/utils/commit/81ec2285ef8050aef178f122912db09f961a9303))
+
 ## [0.2.0](https://github.com/plutocms/utils/compare/v0.1.1...v0.2.0) (2026-09-09)
 
 
