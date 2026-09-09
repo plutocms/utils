@@ -50,6 +50,28 @@ const props = defineProps<Props>()
   padding-right: 0.5rem;
 }
 
+@media (max-width: 63.999rem) {
+  .nav-content {
+    box-sizing: border-box;
+    min-width: 2.75rem;
+    justify-content: center;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
+  .link-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
 .nav-link:hover .nav-content {
   background-color: rgba(0, 0, 0, 0.1);
 }
