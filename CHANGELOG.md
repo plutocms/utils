@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/plutocms/utils/compare/v0.2.1...v0.2.2) (2026-10-16)
+
+
+### Bug Fixes
+
+* **deps:** upgrade dependencies ([#20](https://github.com/plutocms/utils/issues/20)) ([1086d05](https://github.com/plutocms/utils/commit/1086d05ca572f1eb4d226e0821c933d754081112))
+
 ## [0.2.1](https://github.com/plutocms/utils/compare/v0.2.0...v0.2.1) (2026-09-09)
 
 
