@@ -42,7 +42,9 @@ Example: `"Café au Lait"` becomes `"cafe-au-lait"`.
 ## domainFromUrl
 
 ```typescript
-export function domainFromUrl(url: string | null | undefined): string | undefined
+export function domainFromUrl(
+  url: string | null | undefined
+): string | undefined
 ```
 
 Extracts the domain name from a URL.
