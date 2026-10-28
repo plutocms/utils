@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/plutocms/utils/compare/v0.2.2...v0.3.0) (2026-10-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove the old admin navigation composables ([#27](https://github.com/plutocms/utils/issues/27))
+
+### Features
+
+* remove the old admin navigation composables ([#27](https://github.com/plutocms/utils/issues/27)) ([7518431](https://github.com/plutocms/utils/commit/751843127212fb40568816a20fee88d25e30776f))
+
 ## [0.2.2](https://github.com/plutocms/utils/compare/v0.2.1...v0.2.2) (2026-10-16)
 
 
