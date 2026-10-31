@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/plutocms/utils/compare/v0.3.0...v0.3.1) (2026-10-31)
+
+
+### Bug Fixes
+
+* apps that extend the layer no longer get the ESLint module or an install script ([#42](https://github.com/plutocms/utils/issues/42)) ([0713afc](https://github.com/plutocms/utils/commit/0713afc218b7966faf008760ffb0618f85766c87))
+
 ## [0.3.0](https://github.com/plutocms/utils/compare/v0.2.2...v0.3.0) (2026-10-28)
 
 
